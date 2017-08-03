@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CPSC 452</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>execute</servlet-name>
+    <jsp-file>/execute.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>execute</servlet-name>
+    <url-pattern>/execute</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>diffiehellman</servlet-name>
+    <jsp-file>/diffiehellman.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>diffiehellman</servlet-name>
+    <url-pattern>/diffiehellman</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>maninthemiddle</servlet-name>
+    <jsp-file>/maninthemiddle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>maninthemiddle</servlet-name>
+    <url-pattern>/maninthemiddle</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
